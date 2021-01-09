@@ -8,3 +8,5 @@ almost black #212121
 main video 640 360
 
 youtube nav logo 80 24
+
+nav height 56px
