@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   position: fixed;
-  
+  top: 0;
 }
 
 .icons {
@@ -104,13 +104,13 @@
 }
 
 #container {
-  position: absolute;
+  position: relative;
   width: 98vw;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
+  z-index: -1;
   padding-bottom: 20px;
 }
 
@@ -133,7 +133,7 @@ main p{
 
 .viewer{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
     width: 640px;
     color: #606066;
     line-height: 70px;
@@ -190,6 +190,11 @@ p {
 .viewers{
     width: 212px;
     height: 18px;
-
     padding-top: -10px;
+}
+
+.vid_status{
+  padding-left: 100px;
+  font-weight: bold;
+  word-spacing: 10px;
 }
